@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HttpPlaygroundComponent } from './http-playground/http-playground.component';
 import { ComponentPlaygroundComponent } from './component-playground/component-playground.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HttpPlaygroundComponent,
-    ComponentPlaygroundComponent
+    ComponentPlaygroundComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

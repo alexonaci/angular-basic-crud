@@ -9,7 +9,16 @@ export class ComponentPlaygroundComponent implements OnInit {
 
   constructor() { }
 
+  public shouldBeRed = false;
+
+  public objectToBeSent = {name: 'Cosmin'};
+
   ngOnInit() {
+  }
+
+  changeBackgroundColor(event) {
+    console.log(event);
+    this.shouldBeRed = !this.shouldBeRed;
   }
 
 }
